@@ -41,4 +41,4 @@ Now that you have developed a basic understanding of the circuit, lets start wit
 5) In the 'output' tab, there is a list of variables. Select the variables V(PR3), D(PR1) and D(PR2) and click on add button present at the center after each selection. You can see that the selected variables are added to the analog graph box. Now select D(PR) and D(PR2) from the nalog graph box and move the to the digital graph box using the up and down buttons shown below the analog graph box. You will see that both these variables have moved to the digital graph box. We are doing this beacuse we need a digital graph of 0s and 1s for digital variables(D(PR1) and D(PR2)) and an analog graph for analog variables(V(PR)).
 6) In 'Analysis options' tab, set the digital high threshold to 5 an digital low threshld to 0.
 7) Now we are ready to simulate. Click on the run button to get the output. The output thus obtained is similar to the one shown below.
-![output waveform ](https://drive.google.com/file/d/1FCPMy0GQypyIWZ8gAfP-FQ_-sSjmiffO/view?usp=sharing)
+![output waveform ](https://drive.google.com/file/d/1ZPYwNbaCDlBJKr8xQfRT7WJmX0CQnktK/view?usp=sharing)
