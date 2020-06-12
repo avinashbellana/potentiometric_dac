@@ -7,7 +7,7 @@ A computer is designed to work in a digital domain.In today's world, the existen
 # Quick glance of the IP
 With the advent of high performance digital circuits,the need for data converters with high speed and accuracy for a wide range of applications has drawn the attention of scientists and researchers worldwide.In this project we try to design a potentiometric digital-to-analog converter.This repository consists of all the files required to design a potentiometric dac.
 
-To develop an insight into the project, download the `understanding_pac` word document uploaded in this repository.Go through the document carefully and navigate to the references provided in the same whenever there is a need. The document also provides you with some `applications` of dac which helps in understanding their practical implications. 
+To develop an insight into the project, download the `understanding_pac` pdf document uploaded in this repository.Go through the document carefully and navigate to the references provided in the same whenever there is a need. The document also provides you with some `applications` of dac which helps in understanding their practical implications. 
 
 Let us begin with the design of a `2-bit` potentiometric dac. All the steps required are mentioned below. Lets start!
 
@@ -43,7 +43,7 @@ The steps are clearly shown in the images below.
 
    ![scheme](https://user-images.githubusercontent.com/58501983/84500483-450fe280-acd2-11ea-8dc0-33fee8f6e287.png)
 
-4) You can see a schematic of 2-bit dac being displayed on the screen. All the components are annotated. Probes are placed at nodes which we want to be displayed in the output waveforms.The potentiometric dac is desiged using `osu180` node.The length and width of each mosfet is clearly displayed on the schematic.You can develop a basic insight into the circuit by going through the `CMOS design and simulation of 2-bit potentiometric dac` section in the `undertanding_pdac` word document uploaded in this repository.
+4) You can see a schematic of 2-bit dac being displayed on the screen. All the components are annotated. Probes are placed at nodes which we want to be displayed in the output waveforms.The potentiometric dac is desiged using `osu180` node.The length and width of each mosfet is clearly displayed on the schematic.You can develop a basic insight into the circuit by going through the `CMOS design and simulation of 2-bit potentiometric dac` section in the `undertanding_pdac` pdf document uploaded in this repository.
 
    ![schematicpic](https://user-images.githubusercontent.com/58501983/84500619-8a341480-acd2-11ea-96cc-d94290eaa3dc.png)
 
@@ -72,7 +72,7 @@ Now that you have developed a basic understanding of the circuit, lets start wit
 
    ![threshold](https://user-images.githubusercontent.com/58501983/84515868-a9d73700-acea-11ea-8805-2b7915206d98.png)
    
-7) Now we are ready to simulate. Click on the `run` button to get the output. The output thus obtained is similar to the one shown below.
+7) Now we are ready to simulate. Click on the `run` button to get the output. The output thus obtained is similar to the one shown below. A detailed explanation of the output waveform is given in `understanding_pdac` pdf document uploaded in this repository.
 
    ![output](https://user-images.githubusercontent.com/58501983/84516158-04709300-aceb-11ea-8f3c-3324e8ebffb5.png)
 
