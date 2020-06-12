@@ -15,15 +15,23 @@ Let us begin with the design of a 2-bit potentiometric dac. All the steps requir
 Ni Multisim(student version) software is selected for design and simulation of the software.NI Multisim is one of the best tools available for electronics and circuit design students, teachers and professional workers.Follow the steps given below to install NI Multisim.
 
 ## Installation steps for windows 10
-step_1) Find the software in the link given https://www.malavida.com/en/soft/ni-multisim/#gref
-step_2) Clik on the download button available towards the right. The software gets downloaded in 'downloads'.
-step_3) Now open 'downloads' and then find and open the .exe file.
-step_4) Click 'ok' on the dialogue box opened and extract the file to a preferred destination on your pc. 
-step_5) After the files are extrated, click on install 'NI circuit design suite 14.0' and go ahead with the installation process.This           completes the installation and your are ready to design and simulate.
+Follow the steps given below to install the NI Multisim software.
+1) Click on [NI Multisim](https://www.malavida.com/en/soft/ni-multisim/#gref) to download the software.
+2) Clik on the download button available towards the right.
+![download image]()
+3) The software gets downloaded in 'downloads'.Now open 'downloads' and then find and open the .exe file.
+4) Click 'ok' on the dialogue box opened and extract the file to a preferred destination on your pc. 
+5) After the files are extrated, click on install 'NI circuit design suite 14.0' and go ahead with the installation process.This           completes the installation and your are ready to design and simulate.
 
 # Getting started with the design
-Now that you are done with the installation, lets get on with the design.
+Now that you are done with the installation, lets get on with the design. Follow the steps given below:
 
-step_1) Download the 'pdac_schematic.ms14' file uploaded in this repository.This contains the schematic of the 2-bit potentiometric             digital-to-analog converter.
-step_2) Now, open NI Multisim.This can be done by clicking the NI Mlutisim shortcut present on the desktop.
-step_3) Now follow this to open the schematic donloaded earlier. 
+1) Download the 'pdac_schematic.ms14' file uploaded in this repository.This contains the schematic of the 2-bit potentiometric              digital-to-analog converter.
+2) Now, open NI Multisim.This can be done by clicking the NI Mlutisim shortcut present on the desktop.
+3) Now follow this to open the schematic downloaded earlier > file->open->pdac_schematic->open
+4) You can see a schematic of 2-bit dac being displayed on the screen. All the components are annotated. The potentiometric dac is desiged using osu180 node.The length and width of each mosfet is clearly displayed on the schematic.You can develop a basic insight into the circuit by going through the 'CMOS design and simulation of 2-bit potentiometric dac' section in the 'undertanding_pdac' document uploaded in this repository.
+
+# Running the simulation
+Now that you have developed a basic understanding of the circuit, lets start with the simulation. Follow the below given steps carefully:
+
+1) 
