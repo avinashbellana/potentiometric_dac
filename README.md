@@ -28,7 +28,7 @@ Now that you are done with the installation, lets get on with the design. Follow
 
 1) Download the 'pdac_schematic.ms14' file uploaded in this repository.This contains the schematic of the 2-bit potentiometric              digital-to-analog converter.
 2) Now, open NI Multisim.This can be done by clicking the NI Mlutisim shortcut present on the desktop.
-3) Now follow this to open the schematic downloaded earlier '''File -> open -> pdac_schematic'''
+3) Now follow this to open the schematic downloaded earlier `File -> open -> pdac_schematic -> open`
 4) You can see a schematic of 2-bit dac being displayed on the screen. All the components are annotated. Probes are placed at nodes which we want to be displayed in the output waveforms.The potentiometric dac is desiged using osu180 node.The length and width of each mosfet is clearly displayed on the schematic.You can develop a basic insight into the circuit by going through the 'CMOS design and simulation of 2-bit potentiometric dac' section in the 'undertanding_pdac' document uploaded in this repository.
 
 # Running the simulation
