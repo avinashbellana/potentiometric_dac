@@ -11,22 +11,45 @@ To develop an insight into the project, download the `understanding_pac` pdf doc
 
 Let us begin with the design of a `2-bit` potentiometric dac. All the steps required are mentioned below. Lets start!
 
-# Installing the simulator: NI Multisim
-Ni Multisim(student version) software is selected for design and simulation of the software.NI Multisim is one of the best tools available for electronics and circuit design students, teachers and professional workers.Follow the steps given below to install NI Multisim.
+# Installing the simulator: eSim
+
+eSim (previously known as Oscad / FreeEDA) is a free and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using free and open source software such as KiCad, Ngspice and GHDL. Follow the below mentioned steps carefully to intall eSim simulator. 
 
 ## Installation steps for windows 10
-Follow the steps given below to install the NI Multisim software.
-1) Click on [NI Multisim](https://www.malavida.com/en/soft/ni-multisim/#gref) to download the software.
-2) Click on the `download` button available towards the right.
+Follow the steps given below to install eSim simulator in windows 10.
+1) Click on [eSim](https://esim.fossee.in/downloads) to download the software. Disable the antivirus (if any).
+2) Now double click on eSim installer.The download tab is clearly shown in the picture below.
 
-![download pic](https://user-images.githubusercontent.com/58501983/84499390-21e43380-acd0-11ea-8319-370363cf0a89.JPG)
+![download](https://user-images.githubusercontent.com/58501983/85202812-ac5b1180-b326-11ea-8e31-0a77c9707a45.png)
 
 3) The software gets downloaded in 'downloads'.Now open 'downloads' and then find and open the `.exe` file.
 4) Click `'ok'` on the dialogue box opened and `extract` the file to a preferred destination on your pc. 
-5) After the files are extrated, click on install `'NI circuit design suite 14.0'` and go ahead with the installation process.
-![cricuitsuit](https://user-images.githubusercontent.com/58501983/84499791-e5650780-acd0-11ea-8845-275337e34bf6.png)
+5) After the files are extrated, click on install and go ahead with the installation process.
 6) We are now done with installation and ready to design and simulate.
+7) To uninstall eSim and all of its components, run the uninstaller "uninst-eSim.exe" located at top-level eSim directory (where this      INSTALL file can be found).
 
+
+## Installation steps for Ubuntu(LINUX)
+Follow the steps below to install eSim simulator in Ubuntu OS.
+1) Click on [eSim](https://esim.fossee.in/downloads) to download the software. Disable the antivirus (if any).
+2) Now double click on eSim installer.The download tab is clearly shown in the picture below.
+
+   ![downloadlinux](https://user-images.githubusercontent.com/58501983/85203290-512b1e00-b32a-11ea-8003-7a773bbc1f7c.png)
+   
+3) After downloading the software, extract it using \
+   `$ unzip eSim-2.0.zip`\
+   Now change directories in to the top-level eSim directory (where this INSTALL file can be found).
+4) To install eSim and other dependencies, run the following command :\
+   `$ chmod +x install-eSim.sh`\
+   `$ ./install-eSim.sh --install`\
+   Above script will install eSim along with dependencies.
+5) To uninstall eSim and all of its components, run the following command :\
+   `$ ./install-eSim.sh --uninstall`
+6) To run the software:\
+  i. Through terminal\
+      `$ esim`\
+  ii. Double click eSim desktop icon
+  
 # Getting started with the design
 Now that you are done with the installation, lets get on with the design. Follow the steps given below:
 
@@ -95,7 +118,7 @@ You have finally designed and simulated a 2-bit potentiometric digital-to-aalog 
 
 # Contact information
 - BELLANA AVINASH NAIDU
- B.tech Electronics and Instrumentation, NIT Rourkela
+ B.tech, Electronics and Instrumentation, NIT Rourkela
  avinashbellana@gmail.com
 - KUNAL GHOSH 
  Director, VSD Corp. Pvt. Ltd. 
