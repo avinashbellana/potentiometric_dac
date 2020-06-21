@@ -1,0 +1,68 @@
+* e:\fossee\esim\library\subcircuitlibrary\32_dac\32_dac.cir
+
+.include NMOS-180nm.lib
+.include PMOS-180nm.lib
+m13 net-_m13-pad1_ b0 net-_m13-pad3_ net-_m13-pad3_ CMOSN W=0.36u L=0.18u M=1
+m9 net-_m13-pad3_ net-_m1-pad1_ net-_m13-pad1_ net-_m13-pad1_ CMOSP W=0.9u L=0.18u M=1
+m17 net-_m17-pad1_ b0 net-_m13-pad3_ net-_m13-pad3_ CMOSP W=0.9u L=0.18u M=1
+m5 net-_m13-pad3_ net-_m1-pad1_ net-_m17-pad1_ net-_m17-pad1_ CMOSN W=0.36u L=0.18u M=1
+m14 net-_m10-pad3_ b0 net-_m10-pad1_ net-_m10-pad1_ CMOSN W=0.36u L=0.18u M=1
+m10 net-_m10-pad1_ net-_m1-pad1_ net-_m10-pad3_ net-_m10-pad3_ CMOSP W=0.9u L=0.18u M=1
+m18 net-_m18-pad1_ b0 net-_m10-pad1_ net-_m10-pad1_ CMOSP W=0.9u L=0.18u M=1
+m6 net-_m10-pad1_ net-_m1-pad1_ net-_m18-pad1_ net-_m18-pad1_ CMOSN W=0.36u L=0.18u M=1
+m15 net-_m11-pad3_ net-_m15-pad2_ net-_m11-pad1_ net-_m11-pad1_ CMOSN W=0.36u L=0.18u M=1
+m11 net-_m11-pad1_ net-_m11-pad2_ net-_m11-pad3_ net-_m11-pad3_ CMOSP W=0.9u L=0.18u M=1
+m19 net-_m19-pad1_ net-_m15-pad2_ net-_m11-pad1_ net-_m11-pad1_ CMOSP W=0.9u L=0.18u M=1
+m7 net-_m11-pad1_ net-_m11-pad2_ net-_m19-pad1_ net-_m19-pad1_ CMOSN W=0.36u L=0.18u M=1
+m16 net-_m12-pad3_ net-_m15-pad2_ net-_m12-pad1_ net-_m12-pad1_ CMOSN W=0.36u L=0.18u M=1
+m12 net-_m12-pad1_ net-_m11-pad2_ net-_m12-pad3_ net-_m12-pad3_ CMOSP W=0.9u L=0.18u M=1
+m20 net-_m20-pad1_ net-_m15-pad2_ net-_m12-pad1_ net-_m12-pad1_ CMOSP W=0.9u L=0.18u M=1
+m8 net-_m12-pad1_ net-_m11-pad2_ net-_m20-pad1_ net-_m20-pad1_ CMOSN W=0.36u L=0.18u M=1
+m27 net-_m13-pad3_ b1 net-_m23-pad1_ net-_m23-pad1_ CMOSN W=0.36u L=0.18u M=1
+m25 net-_m23-pad1_ net-_m21-pad1_ net-_m13-pad3_ net-_m13-pad3_ CMOSP W=0.9u L=0.18u M=1
+m29 net-_m10-pad1_ b1 net-_m23-pad1_ net-_m23-pad1_ CMOSP W=0.9u L=0.18u M=1
+m23 net-_m23-pad1_ net-_m21-pad1_ net-_m10-pad1_ net-_m10-pad1_ CMOSN W=0.36u L=0.18u M=1
+m28 net-_m11-pad1_ b1 net-_m24-pad1_ net-_m24-pad1_ CMOSN W=0.36u L=0.18u M=1
+m26 net-_m24-pad1_ net-_m21-pad1_ net-_m11-pad1_ net-_m11-pad1_ CMOSP W=0.9u L=0.18u M=1
+m30 net-_m12-pad1_ b1 net-_m24-pad1_ net-_m24-pad1_ CMOSP W=0.9u L=0.18u M=1
+m24 net-_m24-pad1_ net-_m21-pad1_ net-_m12-pad1_ net-_m12-pad1_ CMOSN W=0.36u L=0.18u M=1
+m35 net-_m23-pad1_ b2 vout vout CMOSN W=0.36u L=0.18u M=1
+m34 vout net-_m31-pad1_ net-_m23-pad1_ net-_m23-pad1_ CMOSP W=0.9u L=0.18u M=1
+m36 net-_m24-pad1_ b2 vout vout CMOSP W=0.9u L=0.18u M=1
+m33 vout net-_m31-pad1_ net-_m24-pad1_ net-_m24-pad1_ CMOSN W=0.36u L=0.18u M=1
+m1 net-_m1-pad1_ b0 gnd gnd CMOSN W=0.36u L=0.18u M=1
+m2 net-_m1-pad1_ b0 vdd vdd CMOSP W=0.9u L=0.18u M=1
+m21 net-_m21-pad1_ b1 gnd gnd CMOSN W=0.36u L=0.18u M=1
+m22 net-_m21-pad1_ b1 vdd vdd CMOSP W=0.9u L=0.18u M=1
+m31 net-_m31-pad1_ b2 gnd gnd CMOSN W=0.36u L=0.18u M=1
+m32 net-_m31-pad1_ b2 vdd vdd CMOSP W=0.9u L=0.18u M=1
+r2  net-_m13-pad1_ net-_m17-pad1_ 2k
+r1  net-_r1-pad1_ net-_m13-pad1_ 1k
+r3  net-_m17-pad1_ net-_m10-pad3_ 2k
+v1 net-_r1-pad1_ gnd  dc 3.3
+r4  net-_m10-pad3_ net-_m18-pad1_ 2k
+r5  net-_m18-pad1_ net-_m11-pad3_ 2k
+r6  net-_m11-pad3_ net-_m19-pad1_ 2k
+r7  net-_m19-pad1_ net-_m12-pad3_ 2k
+r8  net-_m12-pad3_ net-_m20-pad1_ 2k
+r9  net-_m20-pad1_ gnd 1k
+m3 net-_m11-pad2_ net-_m15-pad2_ gnd gnd CMOSN W=0.36u L=0.18u M=1
+m4 net-_m11-pad2_ net-_m15-pad2_ vdd vdd CMOSP W=0.9u L=0.18u M=1
+* u1  b0 plot_v1
+* u2  b1 plot_v1
+* u3  b2 plot_v1
+v2  b0 gnd pwl(0 0 0.99 0 1 1.8 1.99 1.8 2 0 2.99 0 3 1.8 3.99 1.8 4 0 4.99 0 5 1.8 5.99 1.8 6 0 6.99 0 7 1.8 7.99 1.8 8 0)
+v3  b1 gnd pwl(0 0 1.99 0 2 1.8 3.99 1.8 4 0 5.99 0 6 1.8 7.99 1.8 8 0)
+v4  b2 gnd pwl(0 0 3.99 0 4 1.8 7.99 1.8 8 0)
+.tran 100e-03 8e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(b0)
+plot v(b1)
+plot v(b2)
+.endc
+.end
