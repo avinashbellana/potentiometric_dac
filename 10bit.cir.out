@@ -99,7 +99,7 @@ R4 N003 N005 10k
 * Control Statements 
 .control
 run
-plot v(vout)
+plot v(out)
 .endc
 .backanno
 .end
