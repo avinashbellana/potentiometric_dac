@@ -29,12 +29,12 @@ R1 N002 N003 5k
 .ends level8
 
 .subckt switch dig_in in_1 in_2 Vout
-M1 in_1 dig_in Vout Vout CMOSN
-M2 Vout N002 in_2 in_2 CMOSN
-M4 N002 dig_in 0 0 CMOSN
-M5 N002 dig_in N001 N001 CMOSP
-M6 in_2 dig_in Vout Vout CMOSP
-M3 Vout N002 in_1 in_1 CMOSP
+M1 in_1 dig_in Vout Vout CMOSN L=180n W =360n
+M2 Vout N002 in_2 in_2 CMOSN L=180n W =360n
+M4 N002 dig_in 0 0 CMOSN L=180n W =360n
+M5 N002 dig_in N001 N001 CMOSP L=180n W =900n
+M6 in_2 dig_in Vout Vout CMOSP L=180n W =900n
+M3 Vout N002 in_1 in_1 CMOSP L=180n W =900n
 V1 N001 0 3.3
 .include PMOS-180nm.lib
 .include NMOS-180nm.lib
@@ -93,7 +93,7 @@ R4 N003 N005 10k
 .ends level1
 
 
-.tran 10s
+.tran 100e-03 8e-00 0e-00
 * Control Statements 
 .control
 run
